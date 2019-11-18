@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dk.cphbusiness.example.dummy;
 
 import dk.cphbusiness.example.contract.PersonManager;
@@ -18,6 +13,8 @@ public class PersonManagerDummy implements PersonManager {
   public PersonManagerDummy() {
     new Person("Anders", "Kalhauge", "aka@cphbusiness.dk");
     new Person("Jacob", "Trier Frederiksen", "jtf@cphbusiness.dk");
+    new Person("Dora", "Dimitrova", "tdi@cphbusiness.dk");
+
     }
 
   @Override
